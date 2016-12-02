@@ -1,7 +1,7 @@
 {
   "name": "webpack-module-analyzer-plugin",
   "version": "0.0.0",
-  "description": "Webpack plugin for removing comments in final output when not Uglifying",
+  "description": "Webpack plugin that outputs the list of modules contained in the output bundle",
   "homepage": "",
   "author": {
     "name": "Jeff McLean",
