@@ -1,0 +1,10 @@
+{
+  "extends": "xo-space",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+      "indent": [2, 4, {"SwitchCase": 1}],
+      "arrow-parens": ["error", "always"]
+  }
+}

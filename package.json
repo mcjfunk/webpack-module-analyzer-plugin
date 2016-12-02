@@ -1,0 +1,26 @@
+{
+  "name": "webpack-module-analyzer-plugin",
+  "version": "0.0.0",
+  "description": "Webpack plugin for removing comments in final output when not Uglifying",
+  "homepage": "",
+  "author": {
+    "name": "Jeff McLean",
+    "email": "mclean@inreach.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "comments"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0"
+  },
+  "repository": "git@github.com:mcjfunk/webpack-module-analyzer-plugin.git",
+  "license": "MIT"
+}
