@@ -10,11 +10,11 @@ $ npm install --save-dev webpack-module-analyzer-plugin
 ## Usage
 
 ```js
-const webpackRemoveCommentsPlugin = require('webpack-module-analyzer-plugin');
+const ModuleAnalyzerPlugin = require('webpack-module-analyzer-plugin');
 
 // Within your webpack config
 plugins: [
-    new WebpackModuleAnalyzerPlugin({
+    new ModuleAnalyzerPlugin({
         filename: 'outputStats', // default
         srcDir: 'src' // default
     })
@@ -45,7 +45,7 @@ INCLUDED MODULES
 lodash.debounce/index.js (10.53 kb) -- Issuer: ./src/components/Calendar/Calendar.js
 style-loader/addStyles.js (6.99 kb) -- Issuer: ./src/components/Calendar/Calendar.less
 ```
-Filesizes are pre-minified sizes.
+File sizes are pre-minified sizes.
 
 
 ## License
