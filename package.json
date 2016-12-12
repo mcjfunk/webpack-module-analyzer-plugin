@@ -1,6 +1,6 @@
 {
   "name": "webpack-module-analyzer-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Webpack plugin that outputs the list of modules contained in the output bundle",
   "homepage": "",
   "author": {
